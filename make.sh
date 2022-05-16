@@ -8,4 +8,4 @@ rm $name;
 echo Модуль $name;
 git add *
 git commit -m "update"
-gip push
+git push
