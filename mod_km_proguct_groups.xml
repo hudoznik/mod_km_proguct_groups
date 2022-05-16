@@ -40,7 +40,7 @@
 	</uninstall>
 	<updateservers>
 		<server type="extension" priority="1" name="mod_km_proguct_groups">
-			http://update.alexlom.ru/update-info/j3/ksenmart/pkg_ksenmart_4/modules/site/mod_km_proguct_groups-update.xml
+			https://raw.githubusercontent.com/hudoznik/mod_km_proguct_groups/main/update.xml
 		</server>
 	</updateservers>
 	<config>

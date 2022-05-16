@@ -1,1 +1,1 @@
-DELETE FROM `#__modules` WHERE `module`='mod_km_shop_reviews';
+DELETE FROM `#__modules` WHERE `module`='mod_km_proguct_groups';

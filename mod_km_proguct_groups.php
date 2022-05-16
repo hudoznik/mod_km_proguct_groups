@@ -25,15 +25,15 @@ if (KsenmartHtmlHelper::AddHeadTags($module_name,$params) !== true){
 }
 
 require_once(__DIR__ . DS . 'helper.php');
-$modKMShopreviewsHelper = new modKMShopreviewsHelper();
+$modKMProguctgroupsHelper = new modKMProguctgroupsHelper();
 
 $jinput     = JFactory::getApplication()->input;
 if (!($jinput->getCmd('view', '') == 'comments' && $jinput->getCmd('layout', '') == 'reviews')){
 
 	$user            = KSUsers::getUser();
-	$reviews         = $modKMShopreviewsHelper->getReviews($params);
+	$reviews         = $modKMProguctgroupsHelper->getReviews($params);
 	if ($reviews){
-		$Itemid			 = $modKMShopreviewsHelper->getReviewsItemid();
+		$Itemid			 = $modKMProguctgroupsHelper->getReviewsItemid();
 		$moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
 		
 		require JModuleHelper::getLayoutPath($module_name, $layout);

@@ -6,7 +6,7 @@
  
 defined('_JEXEC') or die;
 
-class modKMShopreviewsHelper 
+class modKMProguctgroupsHelper 
 {
 
     public function getReviews($params) 
